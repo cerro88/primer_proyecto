@@ -1,0 +1,55 @@
+.d {
+    background-color: rgb(241, 220, 141);
+    text-align: center;
+    padding: 10px 10px;
+}
+
+.h {
+    padding: 10px 10px;
+    background-color: #ebd5ec;
+}
+
+.pati {
+    text-align: center;
+    background-color: #e6a8e7;
+}
+
+.curs {
+    text-align: center;
+    padding: 20px 20px;
+    background-color: #ebd5ec;
+    font-size: large;
+}
+
+.vacio {
+    background-color: #f1c4f2;
+}
+
+.sistemes {
+    background-color: rgb(146, 172, 227);
+    padding: 5px 10px;
+    text-align: center;
+}
+
+.seguretat {
+    background-color: #86d7ec;
+    padding: 5px 10px;
+}
+
+.serveis {
+    background-color: #c3b7f8;
+    padding: 5px 10px;
+    text-align: center;
+}
+
+.empresa {
+    background-color: #6ea2ae;
+    padding: 5px 10px;
+    text-align: center;
+}
+
+.aw {
+    background-color: #738184;
+    padding: 5px 10px;
+    text-align: center;
+}
