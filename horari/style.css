@@ -2,6 +2,12 @@ h1 {
     text-align: center;
 }
 
+div {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
 .d {
     background-color: rgb(241, 220, 141);
     text-align: center;
