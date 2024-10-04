@@ -1,50 +1,49 @@
-html{
+html {
     font-size: 62.5%;
 }
 
-body{
+body {
     font-family: "Roboto", sans-serif;
-   font-size:16px ;  /*1rem = 16 px*/
-
+    font-size: 16px;
+    /*1rem = 16 px*/
 }
+
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+
 
 /*utilidades*/
 
-.container{
-   width: 75%;
-   margin: 0 auto;
-
+.container {
+    width: 75%;
+    margin: 0 auto;
 }
 
-.bg-second{
+.bg-second {
     background-color: #187e29;
 }
 
-h1{
+h1 {
     font-size: 2.5rem;
 }
 
-
-h2{
+h2 {
     font-size: 1.8rem;
 }
 
-
-
-
-.title{
+.title {
     color: #0077b6;
     text-align: center;
     font-size: 3.8rem;
 }
 
-.title span{
+.title span {
     color: #187e29;
     font-size: 2rem;
 }
 
-
-
-.nav-principal{
+.nav-principal {
     background-color: #187e29;
 }
