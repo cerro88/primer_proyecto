@@ -1,0 +1,81 @@
+    /*Estils genèrics*/
+
+body {
+    padding: 10px 10px;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+
+/*Seudoclase*/
+
+a:hover {
+    text-decoration: underline;
+    /*Això fa que quan passa el cursor damunt de qualque enllaç, aquest quedi subratllat*/
+}
+
+
+/*Header*/
+
+header {
+    background-color: #fefefe;
+    color: #000;
+    padding: 10px;
+    border-left: 5px solid #2980b9;
+}
+
+
+/*Direcció*/
+
+.direccio {
+    background-color: #ecf0f1;
+    padding: 15px;
+    border-left: 5px solid #2980b9;
+}
+
+.direccio p {
+    margin: 5px 0;
+}
+
+
+/*Skills*/
+
+.skills {
+    background-color: #fff;
+    padding: 15px;
+    border-left: 5px solid #2980b9;
+}
+
+
+/*Educació*/
+
+.educacio {
+    background-color: #fff;
+    padding: 15px;
+    border-left: 5px solid #2980b9;
+}
+
+
+/*Experiencia*/
+
+.experiencia {
+    background-color: #fff;
+    padding: 15px;
+    border-left: 5px solid #2980b9;
+}
+
+
+/*Social*/
+
+.internet {
+    background-color: #ecf0f1;
+    padding: 15px;
+    border-left: 5px solid #2980b9;
