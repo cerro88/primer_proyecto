@@ -75,10 +75,6 @@ img {
 
 /*FIN DE BÁSICOS*/
 
-header {
-    background-color: beige;
-}
-
 
 /*Clases*/
 
@@ -142,7 +138,6 @@ main {
 .reviews {
     display: flex;
     flex-direction: row;
-    padding-bottom: 3rem;
 }
 
 .reviews div {
@@ -150,6 +145,7 @@ main {
     padding: 2rem;
     border: 1px solid #000;
     border-radius: 2rem;
+    padding-bottom: 1rem
 }
 
 
