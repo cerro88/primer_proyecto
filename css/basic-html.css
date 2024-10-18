@@ -1,0 +1,161 @@
+/*ESTILOS BÁSICOS*/
+
+html {
+    font-size: 62, 5%;
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    font-size: 16px;
+}
+
+h1 {
+    font-size: 3.8rem;
+}
+
+h2 {
+    font-size: 3.2rem;
+}
+
+h3 {
+    font-size: 2.6rem;
+}
+
+h1,
+h2,
+h3 {
+    text-align: center;
+}
+
+
+/*Enlaces*/
+
+a {
+    color: inherit;
+    /*matiene el color del texto que lo rodea*/
+    text-decoration: none;
+    /*Elimina el subrayado*/
+    transition: color 0.3s ease;
+    /* Hace que los cambios de color sean suaves y duren 0.3 segundos */
+}
+
+a:hover {
+    color: #4d0dc4;
+    /*Cambia el color del texto al pasar el cursor por encima*/
+}
+
+
+/*Listas*/
+
+ul {
+    list-style-type: none;
+    /* Elimina los puntos o viñetas de la lista */
+    padding-left: 0;
+    /* Quita el espacio en el lado izquierdo del contenido de la lista */
+    margin: 0;
+    /* Elimina cualquier margen alrededor de la lista */
+}
+
+
+/*Imagenes*/
+
+img {
+    max-width: 100%;
+    /* Ajusta la imagen a la anchura máxima del contenido */
+    object-fit: cover;
+    /* Ajusta la imagen para que se adapte al tamaño del contenedor */
+}
+
+
+/*FIN DE BÁSICOS*/
+
+header {
+    background-color: beige;
+}
+
+
+/*Clases*/
+
+.text-center {
+    text-align: center;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    border: 1px solid #000;
+}
+
+header .top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+.logo {
+    display: flex;
+    gap: 10px;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 3rem;
+}
+
+
+/*main*/
+
+.projects {
+    padding-left: 1rem;
+    border-right: 1px solid #000;
+}
+
+.projects li {
+    padding-top: 0.5rem;
+}
+
+.experience {
+    padding-left: 1rem;
+}
+
+.education {
+    padding-left: 1rem;
+    border-left: 1px solid #000;
+}
+
+main {
+    display: flex;
+}
+
+
+/*reviews*/
+
+.reviews {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 3rem;
+}
+
+.reviews div {
+    margin: 1rem;
+    padding: 2rem;
+    border: 1px solid #000;
+    border-radius: 2rem;
+}
+
+
+/*footer*/
+
+footer {
+    text-align: center;
+    padding: 3rem;
+}
