@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+    padding: 3rem 10rem;
+    background-color: bisque;
+}
+
+.icon {
+    padding: 2rem 1rem;
+}
