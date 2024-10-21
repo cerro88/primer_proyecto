@@ -19,3 +19,17 @@ body {
 .icon {
     padding: 2rem 1rem;
 }
+
+
+/*Cursor pasa a pointer en una sección especifica*/
+
+.container {
+    cursor: pointer;
+}
+
+
+/*seudoclase*/
+
+i:hover {
+    color: #fff;
+}
