@@ -1,0 +1,9 @@
+body {
+    background-color: aqua;
+    margin: 0;
+    padding: 0;
+}
+
+#showcase {
+    background-image: url(../img/montaña.jpg);
+}
