@@ -1,7 +1,23 @@
-body {
-    background-color: aqua;
+* {
     margin: 0;
     padding: 0;
+}
+
+header h1 {
+    margin: 0;
+    padding: 0;
+}
+
+
+/*La única manera que he encontrado es ponerle pading 0 ya que al navegador (cual sea) le sale de sus huevos que el h1 tenga un padding*/
+
+body {
+    background-color: aqua;
+}
+
+header {
+    width: 100%;
+    height: 100vh;
 }
 
 #showcase {
