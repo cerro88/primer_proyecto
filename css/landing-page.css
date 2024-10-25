@@ -1,5 +1,5 @@
 :root{
-    --primary-color:#F5F5DC;
+    --primary-color:#674c39;
 }
 
 
@@ -9,15 +9,10 @@
     padding: 0;
 }
 
-header h1 {
-    margin: 0;
-    padding: 0;
-}
-
 /*La única manera que he encontrado es ponerle pading 0 ya que al navegador (cual sea) le sale de sus huevos que el h1 tenga un padding*/
 
 body {
-    background-color: aqua;
+    color: var(--primary-color);
 }
 
 header {
@@ -37,10 +32,52 @@ header {
     font-size: 1.3em;
 }
 #showcase::after{
-    content: "hola";
+    content: "";
     position: absolute;
     top:0px;
     left:0px;
-    background-color:rgba(0, 0, 0, 0,6);
+    background-color:rgba(0, 0, 0, 0.6);
+    width: 100%;
+    height: 100%;
+    z-index: 1;
 }
 
+h1, p, a{
+    z-index: 2;
+}
+
+a{
+    background-color: var(--primary-color);
+    text-decoration: none;
+    padding: 0.5rem;
+    color: black;
+    border-radius: 0.3rem;
+}
+
+a:hover{
+    color: pink;
+    background-color: black;
+}
+
+.fonsOrange{
+    background-color: var(--primary-color);
+    color: #fff;
+}
+
+#section-a{
+    text-align: center;
+    padding: 2rem;
+}
+
+#section-b{
+    background-color: #f4f4f4;
+    padding: 2rem;
+}
+
+#section-c {
+    display: flex;
+}
+
+#section-c div{
+    padding: 2rem;
+}
