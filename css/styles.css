@@ -47,3 +47,8 @@ h2 {
 .nav-principal {
     background-color: #187e29;
 }
+
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
